@@ -30,7 +30,7 @@ function Login() {
                     left: 0,
                     width: '100%',
                     height: '100%',
-                    backdropFilter: 'blur(20px)',
+                    backdropFilter: 'blur(50px)',
                     zIndex: -1,
                     backgroundImage: 'url(/mnt/data/image.png)',
                     backgroundSize: 'cover',
@@ -70,7 +70,6 @@ function Login() {
                             width: '150px',
                             height: '150px',
                             marginBottom: '16px',
-                            border: '4px solid rgba(255, 255, 255, 0.7)',
                             borderRadius: '50%',
                         }}
                     />
@@ -95,9 +94,9 @@ function Login() {
                             width: '200px',
                             marginTop: '20px',
                             color: '#fff',
-                            borderRadius: '12px',
+                            borderRadius: '4px',
                             fontSize: '16px',
-                            backgroundColor: 'rgba(255, 255, 255, 0.1)',
+                            backgroundColor: 'rgba(73, 73, 73, 0.194)',
                             backdropFilter: 'blur(10px)',
                             border: 'none'
                         }}

@@ -59,3 +59,8 @@
     padding: 16px;
   }
   
+  .window-content {
+    padding: 10px;
+    height: calc(100% - 40px); /* Ajusta o conteúdo para descontar o tamanho da barra de título */
+    overflow-y: auto; /* Adiciona scrollbar vertical */
+  }

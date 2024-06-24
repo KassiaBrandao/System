@@ -3,6 +3,7 @@ import './styles.css';
 import KinuxTaskbar from '../../components/navbar';
 import DateTimeComponent from '../../components/DateTime';
 import WindowComponent from '../../components/window';
+import KassiaProfile from '../../components/Curriculum';
 
 function Home() {
   const [windowState, setWindowState] = useState({
@@ -33,9 +34,9 @@ function Home() {
         isOpen={windowState.isOpen}
         onClose={closeWindow}
         onMaximize={handleMaximize}
-        title="My Window"
+        title="My Resume"
       >
-        <p>This is the content of the window.</p>
+        <KassiaProfile/>
       </WindowComponent>
       <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
       </div>

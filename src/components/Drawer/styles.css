@@ -1,11 +1,9 @@
 /* styles.css */
 
 .drawerContainer {
-    backdrop-filter: blur(20px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
-    background-color:  rgba(255, 255, 255, 0.807);
     overflow-x: hidden;
+    backdrop-filter: 'blur(10px)';
     
 }
 
@@ -13,8 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 32px;
 }
 
 .drawerContent {
@@ -49,3 +46,24 @@
     
 }
 
+.subtitle-drawer{
+    font-weight: 700;
+    font-size: 50px;
+
+}
+
+.skills-items:hover{
+    background: rgba(0, 0, 0, 0.05);
+
+
+}
+
+.drawerFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    background-color: #f0f0f0;
+    margin-top: 32px;
+    height: 20px;
+}
